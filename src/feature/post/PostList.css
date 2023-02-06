@@ -5,3 +5,21 @@
     padding: 10px 10px;
     margin: 5px 5px;
 }
+
+input{
+    padding: 10px 10px;
+    margin: 9px 9px;
+    border: 1px solid black;
+}
+
+select{
+    padding: 10px 10px;
+    margin: 9px 9px;
+    border: 1px solid black; 
+}
+
+textarea{
+    padding: 10px 10px;
+    margin: 9px 9px;
+    border: 1px solid black;
+}
