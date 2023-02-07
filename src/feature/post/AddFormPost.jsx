@@ -16,7 +16,7 @@ const AddFormPost = () => {
     const onSavedPostClicked = () =>{
         if(title && content){
             dispatch(
-                postAdded(title,content)
+                postAdded(title,content,userId)
             )
             setTitle("");
             setContent("")

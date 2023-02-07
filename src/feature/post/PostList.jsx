@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { selectPost } from "./postSlice";
-import './PostList.css'
+import './PostList.css';
+import PostAuthor from "./PostAuthor";
 
 import React from 'react'
 
@@ -12,6 +13,9 @@ const PostList = () => {
     <article key={post.id} className="postList">
     <h3>{post.title}</h3>
     <p>{post.content.substring(0, 100)}</p>
+    <p className="postAuthor">
+      <PostAuthor userId={post.userId}/>
+    </p>
     </article>    
     ))
   return (
