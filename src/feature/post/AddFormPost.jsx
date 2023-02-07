@@ -19,7 +19,7 @@ const AddFormPost = () => {
                 postAdded(title,content,userId)
             )
             setTitle("");
-            setContent("")
+            setContent("");
         }
     }
 
